@@ -1,0 +1,19 @@
+.hero {
+  height: 400px;
+  font-family: "DM Sans";
+}
+
+.columna {
+  height: 400px;
+}
+
+.containerButton {
+  width: 40%;
+}
+
+.colImage {
+  background-image: url("../../images/img-user.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
