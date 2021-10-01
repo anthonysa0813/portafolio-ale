@@ -4,8 +4,8 @@ import ale from "../../images/img-user.jpg";
 
 const Hero = () => {
   return (
-    <div className="container hero ">
-      <div className="row">
+    <div className="container hero  mb-5 ">
+      <div className="row ">
         <div className="col d-flex flex-column justify-content-center columna">
           <h1>¡Hola! 👋🏼 Soy Alejandra, Frontent Developer </h1>
           <p>
@@ -19,7 +19,7 @@ const Hero = () => {
             </a>
           </div>
         </div>
-        <div className="col columna colImage"></div>
+        <div className="col columna colImage "></div>
       </div>
     </div>
   );

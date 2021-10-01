@@ -1,5 +1,6 @@
 import React from "react";
 import Hero from "./components/hero/Hero";
+import Proyectos from "./components/proyectos/Proyectos";
 import Header from "./header/Header";
 
 const App = () => {
@@ -7,6 +8,9 @@ const App = () => {
     <>
       <Header />
       <Hero />
+      <div className="row">
+        <Proyectos />
+      </div>
     </>
   );
 };
